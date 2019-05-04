@@ -97,10 +97,10 @@
 
       <h3>
       </h3>
-      
+
       <h3>Click the button to get your coordinates.</h3>
 
-<button onclick="getLocation()">Try It</button>
+<h3><button onclick="getLocation()">Try It</button></h3>
 
 <h3 id="demo"></h3>
 
@@ -110,18 +110,18 @@ var x = document.getElementById("demo");
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
+    } else {
         x.innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    x.innerHTML = "Latitude: " + position.coords.latitude +
     "<br>Longitude: " + position.coords.longitude;
 }
 </script>
 
-      
+
   </div>
   <!-- /.container -->
   <footer>
