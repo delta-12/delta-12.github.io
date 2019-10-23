@@ -63,6 +63,12 @@ document.write('\
 							<li><a href="batch.html">Batch Scripts</a></li>\
 						</ul>\
 					</li>\
+					<li class="dropdown">\
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>\
+						<ul class="dropdown-menu" aria-labelledby="about-us">\
+							<li><a href="games/2048">Merlin C2</a></li>\
+						</ul>\
+					</li>\
                 </ul>\
 \
 				<!-- Search -->\
