@@ -66,7 +66,7 @@ document.write('\
 					<li class="dropdown">\
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>\
 						<ul class="dropdown-menu" aria-labelledby="about-us">\
-              <li><a href="games/13_days_after">13_days_after</a></li>\
+              <li><a href="games/13_days_after">13 Days After</a></li>\
 							<li><a href="games/2048">2048</a></li>\
               <li><a href="games/snake">Snake</a></li>\
 						</ul>\
