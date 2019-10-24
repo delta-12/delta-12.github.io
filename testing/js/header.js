@@ -40,20 +40,20 @@ document.write('\
                     <span class="icon-bar"></span>\
                 </button>\
                 <a class="navbar-brand" href="#">\
-                	<!-- <img src="images/delta.png" /> -->\
+                	<!-- <img src="/testing/images/delta.png" /> -->\
                 </a>\
             </div>\
             <!-- Navbar links -->\
             <div class="collapse navbar-collapse" id="navbar">\
                 <ul class="nav navbar-nav">\
                     <li class="active">\
-                        <a href="index.html">Home</a>\
+                        <a href="/testing/index.html">Home</a>\
                     </li>\
                     <li>\
-                        <a href="about.html">About</a>\
+                        <a href="/testing/about.html">About</a>\
                     </li>\
                     <li>\
-                        <a href="files/index.html">Files</a>\
+                        <a href="/testing/files/index.html">Files</a>\
                     </li>\
 					<li class="dropdown">\
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hax <span class="caret"></span></a>\
@@ -66,7 +66,9 @@ document.write('\
 					<li class="dropdown">\
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>\
 						<ul class="dropdown-menu" aria-labelledby="about-us">\
+              <li><a href="games/13_days_after">13_days_after</a></li>\
 							<li><a href="games/2048">2048</a></li>\
+              <li><a href="games/snake">Snake</a></li>\
 						</ul>\
 					</li>\
                 </ul>\

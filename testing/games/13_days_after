@@ -1,1 +1,60 @@
-<iframe title="Flash Wrapper" width="900" height="600" scrolling="no" frameborder="0" id="1492306583" name="1492306583" allowtransparency="true" class="igm" src="//4nodbmbq1kg3jfkhn7m4ua4bn329jbnf-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/105629041657992777031/flash-wrapper.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=35ba6cbe98e77e57&amp;libs=core&amp;mid=142&amp;parent=https://sites.google.com/site/tyronesgameshack/13-days-after#up_mode=window&amp;up_flashvars&amp;up_bg&amp;up_url=https://sites.google.com/site/swfheck12343/swf-fi/13-days-after-131953467.swf?attredirects%3D0&amp;up_base&amp;st=e%3DAIHE3cCvi6tHHFZu1B8Pd1Wq7NVmyye00RgQFSvVKst1yIlhVIBtNeigw%252FikXqT8MginSHYKtSXz3QfpbaFjoyUjk90dACyByye323H73ux0Hr3xH1bqL3cWL6HfsAD6z0UPt1j2AU6B%26c%3Denterprise&amp;rpctoken=2937140517097860483"></iframe>
+<!DOCTYPE html>
+<html>
+<script src="/testing/js/header.js"></script>
+
+	<div class="jumbotron feature">
+		<div class="container">
+			<center><h1>[ 13 Days After ]</h1></center>
+
+			<p></p>
+		</div>
+	</div>
+  <!-- Content -->
+  <center>
+  <div class="container">
+
+      <!-- Heading -->
+      <div class="row">
+          <div class="col-lg-12">
+
+
+          </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Feature Row -->
+      <iframe title="Flash Wrapper" width="900" height="600" scrolling="no" frameborder="0" id="1492306583" name="1492306583" allowtransparency="true" class="igm" src="//4nodbmbq1kg3jfkhn7m4ua4bn329jbnf-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/105629041657992777031/flash-wrapper.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=35ba6cbe98e77e57&amp;libs=core&amp;mid=142&amp;parent=https://sites.google.com/site/tyronesgameshack/13-days-after#up_mode=window&amp;up_flashvars&amp;up_bg&amp;up_url=https://sites.google.com/site/swfheck12343/swf-fi/13-days-after-131953467.swf?attredirects%3D0&amp;up_base&amp;st=e%3DAIHE3cCvi6tHHFZu1B8Pd1Wq7NVmyye00RgQFSvVKst1yIlhVIBtNeigw%252FikXqT8MginSHYKtSXz3QfpbaFjoyUjk90dACyByye323H73ux0Hr3xH1bqL3cWL6HfsAD6z0UPt1j2AU6B%26c%3Denterprise&amp;rpctoken=2937140517097860483"></iframe>
+      <!-- /.row -->
+
+  </div>
+  </center>
+  <!-- /.container -->
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  	<footer>
+
+          <div class="small-print">
+          	<div class="container">
+          		<p><a href="/testing/terms_and_conditions.html">Terms &amp; Conditions</a> | <a href="/testing/privacy.html">Privacy Policy</a> | <a href="/testing/contact.html">Contact</a></p>
+          		<p>Copyright &copy; delta-12.github.com 2019 (Hehe, Not Really!)</p>
+          	</div>
+          </div>
+  	</footer>
+
+
+      <!-- jQuery -->
+      <script src="/testing/js/jquery-1.11.3.min.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="/testing/js/bootstrap.min.js"></script>
+
+  	<!-- IE10 viewport bug workaround -->
+  	<script src="/testing/js/ie10-viewport-bug-workaround.js"></script>
+
+  	<!-- Placeholder Images -->
+  	<script src="/testing/js/holder.min.js"></script>
+
+  </body>
+
+  </html>
