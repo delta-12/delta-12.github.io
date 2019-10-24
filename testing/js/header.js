@@ -9,7 +9,7 @@ document.write('\
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\
 \
     <title>delta12</title>\
-    <link rel="shortcut icon" href="images/delta.ico" />\
+    <link rel="shortcut icon" href="/testing/images/delta.ico" />\
 \
     <!-- Bootstrap Core CSS -->\
     <link href="/testing/css/bootstrap.min.css" rel="stylesheet">\
