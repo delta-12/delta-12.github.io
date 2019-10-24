@@ -58,9 +58,9 @@ document.write('\
 					<li class="dropdown">\
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hax <span class="caret"></span></a>\
 						<ul class="dropdown-menu" aria-labelledby="about-us">\
-							<li><a href="merlin_c2.html">Merlin C2</a></li>\
-							<li><a href="vbscript.html">VBScript Fun</a></li>\
-							<li><a href="batch.html">Batch Scripts</a></li>\
+							<li><a href="/testing/merlin_c2.html">Merlin C2</a></li>\
+							<li><a href="/testing/vbscript.html">VBScript Fun</a></li>\
+							<li><a href="/testing/batch.html">Batch Scripts</a></li>\
 						</ul>\
 					</li>\
 					<li class="dropdown">\
