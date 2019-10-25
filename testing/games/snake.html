@@ -1,116 +1,61 @@
-
 <!DOCTYPE html>
+<html>
 <script src="/testing/js/header.js"></script>
 
-<div class="jumbotron feature">
-	<div class="container">
-		<center><h1>[ SNAKE ]</h1></center>
+	<div class="jumbotron feature">
+		<div class="container">
+			<center><h1>
+[ snake ]</h1></center>
 
-		<p></p>
-	</div>
+<p></p>
+</div>
 </div>
 <!-- Content -->
+<center>
 <div class="container">
-<center>
-<canvas id="gc" width="400" height="400"></canvas>
-<script>
-window.onload=function() {
-	canv=document.getElementById("gc");
-	ctx=canv.getContext("2d");
-	document.addEventListener("keydown",keyPush);
-	setInterval(game,1000/15);
-}
-px=py=10;
-gs=tc=20;
-ax=ay=15;
-xv=yv=0;
-trail=[];
-tail = 5;
-function game() {
-	px+=xv;
-	py+=yv;
-	if(px<0) {
-		px= tc-1;
-	}
-	if(px>tc-1) {
-		px= 0;
-	}
-	if(py<0) {
-		py= tc-1;
-	}
-	if(py>tc-1) {
-		py= 0;
-	}
-	ctx.fillStyle="black";
-	ctx.fillRect(0,0,canv.width,canv.height);
 
-	ctx.fillStyle="lime";
-	for(var i=0;i<trail.length;i++) {
-		ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
-		if(trail[i].x==px && trail[i].y==py) {
-			tail = 5;
-		}
-	}
-	trail.push({x:px,y:py});
-	while(trail.length>tail) {
-	trail.shift();
-	}
+<!-- Heading -->
+<div class="row">
+    <div class="col-lg-12">
 
-	if(ax==px && ay==py) {
-		tail++;
-		ax=Math.floor(Math.random()*tc);
-		ay=Math.floor(Math.random()*tc);
-	}
-	ctx.fillStyle="red";
-	ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
-}
-function keyPush(evt) {
-	switch(evt.keyCode) {
-		case 37:
-			xv=-1;yv=0;
-			break;
-		case 38:
-			xv=0;yv=-1;
-			break;
-		case 39:
-			xv=1;yv=0;
-			break;
-		case 40:
-			xv=0;yv=1;
-			break;
-	}
-}
-</script>
-</center>
+
+    </div>
 </div>
+<!-- /.row -->
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Feature Row -->
+<iframe title="Flash Wrapper" width="900" height="600" scrolling="no" frameborder="0" id="486398154" name="486398154" allowtransparency="true" class="igm" src="//4nodbmbq1kg3jfkhn7m4ua4bn329jbnf-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/105629041657992777031/flash-wrapper.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=35ba6cbe98e77e57&amp;libs=core&amp;mid=36&amp;parent=https://sites.google.com/site/tyronesgameshack/snake#up_mode=window&amp;up_flashvars&amp;up_bg&amp;up_url=https://sites.google.com/site/swfhell22/hell-1/snake_game_1Kb.swf?attredirects%3D0&amp;up_base&amp;st=e%3DAIHE3cAcynEjKRwBxu0R8M%252FfTIO%252FoIsHTswxPfWj1Zk66V2n1F4ccGqrIQR8fbq9UbeCtItWuloKjzNyDvzJx3Rd9ecNY4jHlNygEXJ8oWAavTc3Sf6idoGq3j7LJRQkG6fbGmHk7tUe%26c%3Denterprise&amp;rpctoken=-1211156655348051301"></iframe>
+<!-- /.row -->
 
-<center>
-	<footer>
+  </div>
+  </center>
+  <!-- /.container -->
 
-        <div class="small-print">
-        	<div class="container">
-        		<p><a href="/testing/terms_and_conditions.html">Terms &amp; Conditions</a> | <a href="/testing/privacy.html">Privacy Policy</a> | <a href="/testing/contact.html">Contact</a></p>
-        		<p>Copyright &copy; delta-12.github.com 2019 (Hehe, Not Really!)</p>
-        	</div>
-        </div>
-	</footer>
-</center>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  	<footer>
+
+          <div class="small-print">
+          	<div class="container">
+          		<p><a href="/testing/terms_and_conditions.html">Terms &amp; Conditions</a> | <a href="/testing/privacy.html">Privacy Policy</a> | <a href="/testing/contact.html">Contact</a></p>
+          		<p>Copyright &copy; delta-12.github.com 2019 (Hehe, Not Really!)</p>
+          	</div>
+          </div>
+  	</footer>
 
 
-    <!-- jQuery -->
-    <script src="/testing/js/jquery-1.11.3.min.js"></script>
+      <!-- jQuery -->
+      <script src="/testing/js/jquery-1.11.3.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/testing/js/bootstrap.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="/testing/js/bootstrap.min.js"></script>
 
-	<!-- IE10 viewport bug workaround -->
-	<script src="/testing/js/ie10-viewport-bug-workaround.js"></script>
+  	<!-- IE10 viewport bug workaround -->
+  	<script src="/testing/js/ie10-viewport-bug-workaround.js"></script>
 
-	<!-- Placeholder Images -->
-	<script src="/testing/js/holder.min.js"></script>
+  	<!-- Placeholder Images -->
+  	<script src="/testing/js/holder.min.js"></script>
 
-</body>
+  </body>
 
-</html>
+  </html>
