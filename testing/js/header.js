@@ -271,7 +271,6 @@ document.write('\
 							<li><a href="/testing/games/worlds-hardest-game-2">worlds hardest game 2</a></li>\
 							<li><a href="/testing/games/worldwars">worldwars</a></li>\
 							<li><a href="/testing/games/zelda">zelda</a></li>\
-							<li><a href="/testing/games/system/app/pages/sitemap/hierarchy">system/app/pages/sitemap/hierarchy</a></li>\
 						</ul>\
 					</li>\
                 </ul>\
