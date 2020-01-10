@@ -1,6 +1,5 @@
 document.write('\
 <!DOCTYPE html>\
-<!-- Template by Quackit.com -->\
 <html lang="en">\
 <head>\
     <meta charset="utf-8">\
