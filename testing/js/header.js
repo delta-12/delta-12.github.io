@@ -66,6 +66,7 @@ document.write('\
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web Apps <span class="caret"></span></a>\
 						<ul class="dropdown-menu" aria-labelledby="about-us">\
 							<li><a href="/testing/web-apps/hello-world">Hello World</a></li>\
+              <li><a href="/testing/web-apps/robot-controls">Robot Controls</a></li>\
 						</ul>\
 					</li>\
 					<li class="dropdown">\
