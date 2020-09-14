@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(2, 15, 20);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: whitesmoke;
+  align-items: left;
+  text-align: left;
+}
+
+.appDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navtop {
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  padding-left: 10px;
+}
+.navtop div h1, .navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;
+  font-weight: normal;
+}
+.navtop div button {
+  padding: 0 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.navtop div button i {
+  padding: 2px 8px 0 0;
+}
+.navtop div button:hover {
+  color: #eaebed;
+}
+
+.header {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.header-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.center-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  width: 95%;
+}
+.cards h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: whitesmoke;
+}
+.card {
+  background-color: rgb(35, 43, 50);
+  border-top: 5px solid rgb(58, 69, 82);
+  border-radius: 3px;
+  padding: .75rem;
+  color: whitesmoke;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+}
+.card:hover {
+  background-color: rgb(58, 69, 82);
+}
+.card img {
+  height: 50%;
+  width: 50%;
+  border: 2px solid rgb(2, 15, 20);
+  border-radius: 3px;
+}
+
+@media screen and (orientation:portrait) {
+  .cards {
+    grid-template-columns: repeat(1, minmax(20%, 1fr));
+  }
+  .navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+  }
+  .navtop div h1 {
+    font-size: 13px;
+  }
+  .header {
+    font-size: 17px;
+  }
+}
