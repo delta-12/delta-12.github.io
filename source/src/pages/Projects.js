@@ -1,11 +1,13 @@
 import { Component } from "react"
 import Header from "../components/Header"
+import ProjectCard from "../components/ProjectCard"
+import BitAbode from '../images/bit-abode.jpg'
 
 export default class Projects extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <Header activePage="projects" />
                 <div className="container-lg mt-5 pt-5">
                     <div className="jumbotron mt-5 pt-5">
@@ -13,6 +15,22 @@ export default class Projects extends Component {
                         <hr className="my-4" />
                         <p>Explore some of my recent projects.</p>
                     </div>
+                </div>
+                <div className="container col-lg-11">
+                <main className="col-md-12 ml-sm-auto px-4 mt-5" >
+                    <div className="row gap-1 border-bottom border-primary mb-4">
+                        <h2>Recent</h2>
+                    </div>
+                    <div className="row align-items-center justify-content-between pb-5">
+                        <p>No recent work to display.</p>
+                    </div>
+                    <div className="row gap-1 border-bottom border-primary mb-4">
+                        <h2>Upcoming</h2>
+                    </div>
+                    <div className="row align-items-center justify-content-between pb-5">
+                        <ProjectCard image={BitAbode} title="Bit Abode" description="Smart home system made with RasPi, Arduino, and littleBits born out of a foam core design project." />
+                    </div>
+                </main>
                 </div>
             </div>
         )
