@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.dd7181ec.css",
-    "main.js": "/static/js/main.d28d8444.js",
+    "main.js": "/static/js/main.67984fa4.js",
     "static/media/bit-abode.jpg": "/static/media/bit-abode.81df9f7f6672ff96a400.jpg",
+    "static/media/elock.jpg": "/static/media/elock.558985ba9ca18f70eb9c.jpg",
     "index.html": "/index.html",
     "main.dd7181ec.css.map": "/static/css/main.dd7181ec.css.map",
-    "main.d28d8444.js.map": "/static/js/main.d28d8444.js.map"
+    "main.67984fa4.js.map": "/static/js/main.67984fa4.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7181ec.css",
-    "static/js/main.d28d8444.js"
+    "static/js/main.67984fa4.js"
   ]
 }

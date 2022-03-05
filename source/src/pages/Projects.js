@@ -1,7 +1,9 @@
 import { Component } from "react"
 import Header from "../components/Header"
 import ProjectCard from "../components/ProjectCard"
-import BitAbode from '../images/bit-abode.jpg'
+import BitAbode from "../images/bit-abode.jpg"
+import Battleship from "../images/battleship-img.png"
+import ELock from "../images/elock.jpg"
 
 export default class Projects extends Component {
 
@@ -29,6 +31,8 @@ export default class Projects extends Component {
                     </div>
                     <div className="row align-items-center justify-content-between pb-5">
                         <ProjectCard image={BitAbode} title="Bit Abode" description="Smart home system made with RasPi, Arduino, and littleBits born out of a foam core design project." />
+                        <ProjectCard image={Battleship} title="Battleship" description="Simple implementation of the classic Battleship game in C using the SDL library." />
+                        <ProjectCard image={ELock} title="E Lock" description="Proof of concept for a Kensington Lock with Bluetooth alerts if disturbed." />
                     </div>
                 </main>
                 </div>
