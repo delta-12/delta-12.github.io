@@ -1,5 +1,6 @@
 import { Component } from "react"
 import { Link } from "react-router-dom"
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 export default class Home extends Component {
@@ -15,6 +16,7 @@ export default class Home extends Component {
                         <p><Link to="/about">Learn</Link> more about me and <Link to="/projects">explore</Link> some of my recent projects.</p>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
