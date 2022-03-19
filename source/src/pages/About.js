@@ -1,5 +1,6 @@
 import { Component } from "react"
 import Header from "../components/Header"
+import Ben from "../images/ben.jpg"
 
 export default class About extends Component {
 
@@ -18,6 +19,8 @@ export default class About extends Component {
                             degree in Electrical Engineering as well.  I am looking to pursue a career that combines several of my many interests such as
                             embedded devices, robotics, process control, automation, UAV/drones, and automotive vehicles.
                         </p>
+                        <hr className="my-5" style={{ visibility: "hidden" }}></hr>
+                        <img className="mx-auto d-block mt-2 mb-3" height="470" width="520" src={Ben} alt="ben.png" />
                     </div>
                 </div>
             </div>
