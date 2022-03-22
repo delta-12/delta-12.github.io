@@ -4,10 +4,10 @@ import Arduino from "../../images/BitAbode/arduino.png"
 import Plots from "../../images/BitAbode/plots.png"
 import Diagram from "../../images/BitAbode/system_diagram.png"
 import RaspberryPi from "../../images/BitAbode/raspberry_pi.png"
-// import House from "../../images/BitAbode/house.png"
-// import LEDS from "../../images/BitAbode/LEDS.png"
-// import MyPlot from "../../images/BitAbode/my_plot.png"
-// import Windmill from "../../images/BitAbode/windmill.png"
+import House from "../../images/BitAbode/house.png"
+import LEDS from "../../images/BitAbode/LEDS.png"
+import MyPlot from "../../images/BitAbode/my_plot.png"
+import Windmill from "../../images/BitAbode/windmill.png"
 
 export default class BitAbode extends Component {
 
@@ -28,16 +28,45 @@ export default class BitAbode extends Component {
                     <p>
                         Aside from the basic model, “copious bonus credit” would be awarded for making additional structures either from a list we were given or of our own design.  From the list, I chose to give my house windows and two doors with rounded tops.  I also added a movable satellite dish to the roof of my house and a wind turbine on the adjacent plot of land.  One final design I incorporated from the pre-determined list was a “leveler” for my wind turbine since it was situated on a sloping plot of land.  For my own designs, I added RGB lighting to my house with red, green, and blue LEDs as well as motorized my wind turbine using littleBits electronics (specifically the littleBits DC Motor and Wire modules).  Furthermore, I decided my RGB lighting and wind turbine would be internet-enabled and controllable from my phone via a web app.  Because this project combines littleBits components and a foam core house, the name Bit Abode came to fruition.
                     </p>
-                    {/* <div className="d-grid align-items-center justify-content-between">
-                        <div>
-                            <img className="mx-auto float-left mt-2 mb-3" height="470" width="450" src={House} alt="house.png" />
-                            <img className="mx-atuo float-right mt-2 mb-3" height="470" width="450" src={LEDS} alt="LEDS.png" />
+                    <hr className="my-5" style={{ visibility: "hidden" }}></hr>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="thumbnail">
+                                <img src={House} alt="house.png" style={{ width: "70%" }} />
+                                <div className="caption" style={{ width: "70%" }}>
+                                    <p>Miniature house made from foam core.  Has a moveable satallite dish, hinging doors with rounded tops, windows, and lights.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <img className="mx-auto mt-2 mb-3" height="470" width="450" src={MyPlot} alt="MyPlot.png" />
-                            <img className="mx-auto mt-2 mb-3" height="470" width="450" src={Windmill} alt="windmill.png" />
+                        <div className="col-md-6">
+                            <div className="thumbnail">
+                                <img src={LEDS} alt="house.png" style={{ width: "70%" } } />
+                                <div className="caption">
+                                    <p>Red, green, and blue LED lighting in house.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div> */}
+                        
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="thumbnail">
+                                <img src={MyPlot} alt="house.png" style={{ width: "70%" }} />
+                                <div className="caption" style={{ width: "70%" }}>
+                                    <p>My combine plot of "land" is shown in the far rear, right corner with completed structures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="thumbnail">
+                                <img src={Windmill} alt="house.png" style={{ width: "70%" } } />
+                                <div className="caption">
+                                    <p>Windmill with leveler</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                     <p>
                         To accomplish this, I used an Arduino Uno for I/O and Raspberry Pi Zero W to connect to a control server and relay commands to the Arduino.  The control server was written in Python and used WebSockets for near-realtime communication.  The web app used to send commands from my phone was written in React and used a NodeJS backend for API calls to a MongoDB database.  Each of these components is explained in further detail below.
                     </p>
