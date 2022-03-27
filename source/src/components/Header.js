@@ -17,6 +17,9 @@ export default class Header extends Component {
 							<li className="nav-item">
 								<Link className={classnames((this.props.activePage === "about") ? "nav-link active" : "nav-link")} to="/about">About</Link>
 							</li>
+							<li className="nav-item">
+								<Link className={classnames((this.props.activePage === "resume") ? "nav-link active" : "nav-link")} to="/resume">Resume</Link>
+							</li>
 						</ul>
 					</div>
 				</div>
