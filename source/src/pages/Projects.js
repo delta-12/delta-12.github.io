@@ -14,14 +14,15 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <div className="container">
-                <Header activePage="projects" />
-                <div className="container-lg mt-5 pt-5">
-                    <div className="jumbotron mt-5 pt-5">
-                        <h1 className="display-4">Projects</h1>
-                        <hr className="my-4" />
-                        <p>Explore some of my recent projects.</p>
-                    </div>
+            <><Header activePage="projects" />
+            <div className="container mt-5 pt-5">
+                <div className="d-flex mt-4">
+                    <Link to="/home" style={{ textDecoration: "none" }}>&#8592; Back to Home</Link>
+                </div>
+                <div className="jumbotron mt-3 pt-5">
+                    <h1 className="display-4">Projects</h1>
+                    <hr className="my-4" />
+                    <p>Explore some of my recent projects.</p>
                 </div>
                 <div className="container col-lg-11">
                 <main className="col-md-12 ml-sm-auto px-4 mt-5" >
@@ -35,7 +36,7 @@ export default class Projects extends Component {
                         <Link to="/projects/cycling-safety-vest" className="col-md-4" style={{ textDecoration: "none" }}>
                             <ProjectCard image={CyclingSafetyVest} title="Cycling Saftey Vest" description="Stay safe and visible while cycling with LED strips on a vest that indcate braking and turn." />
                         </Link>
-                        <Link to="//sites.google.com/zeibari.com/makeycraft/home" className="col-md-4" style={{ textDecoration: "none" }}>
+                        <Link to="//sites.google.com/zeibari.com/makeycraft/home" className="col-md-4" style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                             <ProjectCard image={Makeycraft} title="MAKEYCRAFT" description="A new and immersive way to play one of the most popular games of all time, Minecraft!" />
                         </Link>
                     </div>
@@ -50,7 +51,7 @@ export default class Projects extends Component {
                     </div>
                 </main>
                 </div>
-            </div>
+            </div></>
         )
     }
 

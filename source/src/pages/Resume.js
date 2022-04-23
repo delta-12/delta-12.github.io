@@ -9,7 +9,10 @@ export default class Resume extends Component {
             <div>
                 <Header activePage="resume" />
                 <div className="container-lg mt-5 pt-5">
-                    <div className="jumbotron mt-5 pt-5">
+                    <div className="d-flex mt-4">
+                        <Link to="/home" style={{ textDecoration: "none" }}>&#8592; Back to Home</Link>
+                    </div>
+                    <div className="jumbotron mt-3 pt-5">
                         <h1 className="display-4">Resume</h1>
                         <hr className="my-4" />
                     </div>
@@ -75,7 +78,7 @@ export default class Resume extends Component {
                     <h4>Github</h4>
                     <p>
                         Username: <code>delta-12</code><br />
-                        Github homepage: <Link to="//github.com/delta-12">https://github.com/delta-12</Link><br />
+                        Github homepage: <Link to="//github.com/delta-12" target="_blank" rel="noopener noreferrer">https://github.com/delta-12</Link><br />
                     </p>
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>

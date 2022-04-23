@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd7181ec.css",
-    "main.js": "/static/js/main.cf969138.js",
+    "main.js": "/static/js/main.ab587d8e.js",
     "static/media/arduino.png": "/static/media/arduino.55c4f6f43aaa928093d1.png",
     "static/media/bit-abode.jpg": "/static/media/bit-abode.81df9f7f6672ff96a400.jpg",
     "static/media/my_plot.png": "/static/media/my_plot.d6e0ce1e8f3edfc33ef8.png",
@@ -16,13 +16,14 @@
     "static/media/plots.png": "/static/media/plots.4f1bd12d03f304ce23e9.png",
     "static/media/makeycraft.jpg": "/static/media/makeycraft.f35a6c5c4bbf9e291d49.jpg",
     "static/media/system_diagram.png": "/static/media/system_diagram.6be1481adec378e9fac9.png",
+    "static/media/bit-abode-dashboard.png": "/static/media/bit-abode-dashboard.3b884b06dea8b7864c7f.png",
     "static/media/minecraft.png": "/static/media/minecraft.88614d377b384d28e9e1.png",
     "index.html": "/index.html",
     "main.dd7181ec.css.map": "/static/css/main.dd7181ec.css.map",
-    "main.cf969138.js.map": "/static/js/main.cf969138.js.map"
+    "main.ab587d8e.js.map": "/static/js/main.ab587d8e.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7181ec.css",
-    "static/js/main.cf969138.js"
+    "static/js/main.ab587d8e.js"
   ]
 }

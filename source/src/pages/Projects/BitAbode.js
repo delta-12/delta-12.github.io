@@ -9,6 +9,7 @@ import House from "../../images/BitAbode/house.png"
 import LEDS from "../../images/BitAbode/LEDS.png"
 import MyPlot from "../../images/BitAbode/my_plot.png"
 import Windmill from "../../images/BitAbode/windmill.png"
+import BitAbodeDashboard from "../../images/BitAbode/bit-abode-dashboard.png"
 
 export default class BitAbode extends Component {
 
@@ -98,8 +99,9 @@ export default class BitAbode extends Component {
                     <p>
                         The web app and backend server are both written in JavaScript.  The web app frontend uses React and the backend uses NodeJS.  The frontend provides a basic dashboard to control the Raspberry Pi and Arduino with options for sending both digital (On/Off) and analog commands for given devices.  The backend provides an API that allows the web app frontend and control server to communicate with the database.  The frontend web app uses this API to obtain the necessary key to connect to a given Raspberry Pi via the WebSocket control server and display the status of devices controlled by the Arduino on the dashboard.
                     </p>
+                    <img className="mx-auto d-block mt-2 mb-3" height="470" width="650" src={BitAbodeDashboard} alt="Bit-Abode-Dashboard.png" />
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
-                    <p>View the code for this project code on <Link to="//github.com/delta-12/bit-abode">Github</Link>!</p>
+                    <p>View the code for this project code on <Link to="//github.com/delta-12/bit-abode" target="_blank" rel="noopener noreferrer">Github</Link>!</p>
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
                 </div>
