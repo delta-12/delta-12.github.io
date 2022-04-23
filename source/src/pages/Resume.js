@@ -16,7 +16,7 @@ export default class Resume extends Component {
                     <h4>Contact</h4>
                     <p>
                         btesq235@gmail.com, bte12@pitt.edu / 484-280-2433<br />
-                        Permanent Address: 5843 Snowy Orchid Lane /Allentown, PA 18104<br />
+                        Permanent Address: 5843 Snowy Orchid Lane / Allentown, PA 18104<br />
                         University Address: 3725 Sutherland Drive / Pittsburgh, PA 15213
                     </p>
                     <h4>Objective</h4>

@@ -17,7 +17,10 @@ export default class BitAbode extends Component {
             <div>
                 <Header />
                 <div className="container-lg mt-5 pt-5">
-                    <div className="jumbotron mt-5 pt-5">
+                    <div className="d-flex mt-4">
+                        <Link to="/projects" style={{ textDecoration: "none" }}>&#8592; Back to Projects</Link>
+                    </div>
+                    <div className="jumbotron mt-3 pt-5">
                         <h1 className="display-4">Bit Abode</h1>
                         <hr className="my-4" />
                     </div>

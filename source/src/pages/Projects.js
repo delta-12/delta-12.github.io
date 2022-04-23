@@ -6,6 +6,9 @@ import BitAbode from "../images/bit-abode.jpg"
 import Battleship from "../images/battleship-img.png"
 import ELock from "../images/elock.jpg"
 import Minecraft from "../images/minecraft.png"
+import CyclingSafetyVest from "../images/cycling-safety-vest.png"
+import Navigait from "../images/navigait.png"
+import Makeycraft from "../images/makeycraft.jpg"
 
 export default class Projects extends Component {
 
@@ -26,8 +29,14 @@ export default class Projects extends Component {
                         <h2>Recent</h2>
                     </div>
                     <div className="row align-items-center justify-content-between pb-5">
-                        <Link to="/projects/bit-abode" style={{ textDecoration: "none" }}>
+                        <Link to="/projects/bit-abode" className="col-md-4" style={{ textDecoration: "none" }}>
                             <ProjectCard image={BitAbode} title="Bit Abode" description="Smart home system made with RasPi, Arduino, and littleBits born out of a foam core design project." />
+                        </Link>
+                        <Link to="/projects/cycling-safety-vest" className="col-md-4" style={{ textDecoration: "none" }}>
+                            <ProjectCard image={CyclingSafetyVest} title="Cycling Saftey Vest" description="Stay safe and visible while cycling with LED strips on a vest that indcate braking and turn." />
+                        </Link>
+                        <Link to="//sites.google.com/zeibari.com/makeycraft/home" className="col-md-4" style={{ textDecoration: "none" }}>
+                            <ProjectCard image={Makeycraft} title="MAKEYCRAFT" description="A new and immersive way to play one of the most popular games of all time, Minecraft!" />
                         </Link>
                     </div>
                     <div className="row gap-1 border-bottom border-primary mb-4">
@@ -36,7 +45,8 @@ export default class Projects extends Component {
                     <div className="row align-items-center justify-content-between pb-5">
                         <ProjectCard image={Battleship} title="Battleship" description="Simple implementation of the classic Battleship game in C using the SDL library." />
                         <ProjectCard image={ELock} title="E Lock" description="Proof of concept for a Kensington Lock with Bluetooth alerts if disturbed." />
-                        <ProjectCard image={Minecraft} title="Minecraft MongoDB" description="Minecraft Java plugin that connects a server to MongoDB" />
+                        <ProjectCard image={Minecraft} title="Minecraft MongoDB" description="Minecraft Java plugin that connects a server to MongoDB." />
+                        <ProjectCard image={Navigait} title="NaviGAIT" description="Using computer vision to perform gait analysis frequently and proactively with the ultimate aim of improving preventative care for runners." />
                     </div>
                 </main>
                 </div>
