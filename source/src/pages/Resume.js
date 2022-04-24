@@ -25,7 +25,7 @@ export default class Resume extends Component {
                     <h4>Objective</h4>
                     <p>
                         ●	Looking to pursue a co-op or internship involving electronics, programming, and robotics<br />
-                        ●	Areas of interest include embedded devices, process control, UAV/drones, autonomous vehicles
+                        ●	Areas of interest include embedded devices, robotics, process control, automation, cloud computing, distributed systems, wireless communications, UAV/drones, and automotive vehicles
                     </p>
                     <h4>Education</h4>
                     <p>
@@ -52,7 +52,8 @@ export default class Resume extends Component {
                         ●	Built and programmed a semi-autonomous robot<br />
                         ●	Minecraft hosting service for some friends<br />
                         ●	Implemented Bluetooth and wrote iOS app (Swift) for Kensington “E-Lock” POC<br />
-                        ●	Art of Making - SparkFun Redbot, littleBits + Arduino Smart Home system, human-centered design “pretotyping”<br />
+                        ●	Art of Making: engineering course involving hands-on, human-centered system design<br />
+                        AoM Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tanigle Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br />
                     </p>
                     <h4>Involvement/Activities</h4>
                     <p>
