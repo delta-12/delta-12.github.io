@@ -4,7 +4,7 @@ export default class ProjectCard extends Component {
 
     render() {
         return (
-            <div className="card border-primary mb-3" style={{ maxWidth: "20rem" }}>
+            <div className="card border-primary mb-3 bg-primary text-white" style={{ maxWidth: "20rem" }}>
                 <div className="card-body">
                     <div className="row align-items-center justify-content-between">
                     {

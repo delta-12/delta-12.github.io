@@ -5,7 +5,27 @@ import Ben from "../images/ben.jpg"
 
 export default class About extends Component {
 
+    state = {
+        windowWidth: window.innerWidth    
+      }
+    
+      componentDidMount() {
+        window.addEventListener("resize", this.handleResize)
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener("resize", this.handleResize)
+      }
+    
+      handleResize = e => {
+        e.preventDefault()
+        this.setState({
+          windowWidth: window.innerWidth
+        })
+      }
+
     render() {
+        const width = (this.state.windowWidth < 1200) ? this.state.windowWidth * 0.7 : this.state.windowWidth * 0.3
         return (
             <div>
                 <Header activePage="about" />
@@ -24,7 +44,7 @@ export default class About extends Component {
                             embedded devices, robotics, process control, automation, cloud computing, distributed systems, wireless communications, UAV/drones, and automotive vehicles.
                         </p>
                         <hr className="my-5" style={{ visibility: "hidden" }}></hr>
-                        <img className="mx-auto d-block mt-2 mb-3" height="470" width="520" src={Ben} alt="ben.png" />
+                        <img className="mx-auto d-block mt-2 mb-3" height={width * 0.9} width={width} src={Ben} alt="ben.png" />
                     </div>
                 </div>
             </div>
