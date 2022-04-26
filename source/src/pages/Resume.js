@@ -53,7 +53,7 @@ export default class Resume extends Component {
                         ●	Minecraft hosting service for some friends<br />
                         ●	Implemented Bluetooth and wrote iOS app (Swift) for Kensington “E-Lock” POC<br />
                         ●	Art of Making: engineering course involving hands-on, human-centered system design<br />
-                        AoM Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tanigle Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br />
+                        AoM Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tangible Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br />
                     </p>
                     <h4>Involvement/Activities</h4>
                     <p>
