@@ -30,6 +30,9 @@ export default class Projects extends Component {
                         <h2>Recent</h2>
                     </div>
                     <div className="row align-items-center justify-content-between pb-5">
+                        <Link to="//sites.google.com/view/navigait/home" className="col-md-4" style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                            <ProjectCard image={Navigait} title="NaviGAIT" description="Using computer vision to optimize gait analysis so it can be performed frequently and proactively." />
+                        </Link>
                         <Link to="/projects/bit-abode" className="col-md-4" style={{ textDecoration: "none" }}>
                             <ProjectCard image={BitAbode} title="Bit Abode" description="Smart home system made with RasPi, Arduino, and littleBits born out of a foam core design project." />
                         </Link>
@@ -47,7 +50,6 @@ export default class Projects extends Component {
                         <ProjectCard image={Battleship} title="Battleship" description="Simple implementation of the classic Battleship game in C using the SDL library." />
                         <ProjectCard image={ELock} title="E Lock" description="Proof of concept for a Kensington Lock with Bluetooth alerts if disturbed." />
                         <ProjectCard image={Minecraft} title="Minecraft MongoDB" description="Minecraft Java plugin that connects a server to MongoDB." />
-                        <ProjectCard image={Navigait} title="NaviGAIT" description="Using computer vision to perform gait analysis frequently and proactively with the ultimate aim of improving preventative care for runners." />
                     </div>
                 </main>
                 </div>
