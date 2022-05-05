@@ -32,7 +32,7 @@ export default class Resume extends Component {
                         University of Pittsburgh, Swanson School of Engineering, Class of 2025<br />
                         ●	Anticipated BS in Computer Engineering<br />
                         ●	Pitt University Scholarship<br />
-                        ●	3.5 GPA<br />
+                        ●	3.64 GPA<br />
                     </p>
                     <h4>Relevant Skills</h4>
                     <p>
@@ -43,6 +43,12 @@ export default class Resume extends Component {
                         ●	Linux CLI/Bash<br />
                         ●	Proficient with Raspberry Pi and Arduino<br />
                     </p>
+                    <h4>Relevant Coursework</h4>
+                    <p>
+                        Art of Making: engineering course involving hands-on, human-centered system design<br/>
+                            •	Developed skills involving rapid prototyping, user empathy, project management, communicating, presenting, and data-driven design<br/>  
+                            •	Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tangible Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br/>
+                    </p>
                     <h4>Projects/Personal</h4>
                     <p>
                         ●	Built and configured a server for virtualization, containerization, and file sharing<br />
@@ -52,13 +58,12 @@ export default class Resume extends Component {
                         ●	Built and programmed a semi-autonomous robot<br />
                         ●	Minecraft hosting service for some friends<br />
                         ●	Implemented Bluetooth and wrote iOS app (Swift) for Kensington “E-Lock” POC<br />
-                        ●	Art of Making: engineering course involving hands-on, human-centered system design<br />
-                        AoM Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tangible Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br />
                     </p>
                     <h4>Involvement/Activities</h4>
                     <p>
                         <strong>Clubs</strong><br />
                         Pitt Triathlon Club, 2021 - Present<br />
+                        ●   President, 2022 - Present<br />
                         Pitt Cycling Club, 2021 - Present<br /><br />
                         <strong>Volunteering</strong><br />
                         Fair Districts PA, 2018 - Present<br />
