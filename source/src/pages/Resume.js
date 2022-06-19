@@ -18,9 +18,7 @@ export default class Resume extends Component {
                     </div>
                     <h4>Contact</h4>
                     <p>
-                        btesq235@gmail.com, bte12@pitt.edu / 484-280-2433<br />
-                        Permanent Address: 5843 Snowy Orchid Lane / Allentown, PA 18104<br />
-                        University Address: 3725 Sutherland Drive / Pittsburgh, PA 15213
+                        Email: bte12@pitt.edu
                     </p>
                     <h4>Objective</h4>
                     <p>
@@ -29,10 +27,19 @@ export default class Resume extends Component {
                     </p>
                     <h4>Education</h4>
                     <p>
-                        University of Pittsburgh, Swanson School of Engineering, Class of 2025<br />
+                        University of Pittsburgh, Swanson School of Engineering and University Honors College, Class of 2025<br />
                         ●	Anticipated BS in Computer Engineering<br />
                         ●	Pitt University Scholarship<br />
-                        ●	3.64 GPA<br />
+                        ●	3.65 GPA<br />
+                    </p>
+                    <h4>Work Experience</h4>
+                    <p>
+                        MSA, Software Quality Engineering Intern - Summer 2022<br />
+                        ●	Automated software testing for MSA’s G1 SCBA using Python, Pytest, and Raspberry Pis equipped with CAN and relay hats<br />
+                        ●	Wrote tool to sniff and parse CAN bus messages<br />
+                        <br />
+                        Lehigh Country Club, Utility Staff - Summer 2021<br />
+                        ●	Washed dishes, cleaned floors, unloaded and organized inventory, performed odd jobs around kitchen including basic food preparation<br />
                     </p>
                     <h4>Relevant Skills</h4>
                     <p>
@@ -76,10 +83,6 @@ export default class Resume extends Component {
                         National Honors Society, Math Honors Society, Spanish Honors Society<br />
                         Lehigh University Summer Engineering Institute, 2019<br />
                         Trained at Leading Edge Martial Arts for 10 years and earned two black belts<br />
-                    </p>
-                    <h4>Work Experience</h4>
-                    <p>
-                        Lehigh Country Club, Utility Staff - Summer 2021
                     </p>
                     <h4>Github</h4>
                     <p>
