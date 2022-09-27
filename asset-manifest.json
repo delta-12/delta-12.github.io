@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd7181ec.css",
-    "main.js": "/static/js/main.8e05ca60.js",
+    "main.js": "/static/js/main.4aa52510.js",
     "static/media/arduino.png": "/static/media/arduino.55c4f6f43aaa928093d1.png",
     "static/media/bit-abode.jpg": "/static/media/bit-abode.81df9f7f6672ff96a400.jpg",
     "static/media/my_plot.png": "/static/media/my_plot.d6e0ce1e8f3edfc33ef8.png",
@@ -9,21 +9,21 @@
     "static/media/windmill.png": "/static/media/windmill.f100acc11131f32728bb.png",
     "static/media/raspberry_pi.png": "/static/media/raspberry_pi.09cace6f20af6ea269fb.png",
     "static/media/cycling-safety-vest.png": "/static/media/cycling-safety-vest.3a546268870647c472fa.png",
-    "static/media/ben.jpg": "/static/media/ben.231e1c7034eabc043718.jpg",
     "static/media/LEDS.png": "/static/media/LEDS.ce758e770e64b5cc7bbd.png",
     "static/media/navigait.png": "/static/media/navigait.b083aa7bb7d66c9bcb8e.png",
     "static/media/elock.jpg": "/static/media/elock.558985ba9ca18f70eb9c.jpg",
     "static/media/plots.png": "/static/media/plots.4f1bd12d03f304ce23e9.png",
     "static/media/makeycraft.jpg": "/static/media/makeycraft.f35a6c5c4bbf9e291d49.jpg",
+    "static/media/ben.jpg": "/static/media/ben.a0e5b6310cc83961cb58.jpg",
     "static/media/system_diagram.png": "/static/media/system_diagram.6be1481adec378e9fac9.png",
     "static/media/bit-abode-dashboard.png": "/static/media/bit-abode-dashboard.3b884b06dea8b7864c7f.png",
     "static/media/minecraft.png": "/static/media/minecraft.88614d377b384d28e9e1.png",
     "index.html": "/index.html",
     "main.dd7181ec.css.map": "/static/css/main.dd7181ec.css.map",
-    "main.8e05ca60.js.map": "/static/js/main.8e05ca60.js.map"
+    "main.4aa52510.js.map": "/static/js/main.4aa52510.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7181ec.css",
-    "static/js/main.8e05ca60.js"
+    "static/js/main.4aa52510.js"
   ]
 }
