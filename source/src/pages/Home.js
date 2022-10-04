@@ -14,6 +14,7 @@ export default class Home extends Component {
                         <h1 className="display-4">Hello, world!</h1>
                         <hr className="my-4" />
                         <p><Link to="/about">Learn</Link> more about me and <Link to="/projects">explore</Link> some of my recent projects.</p>
+                        <p>Not sure where to start?  Checkout <Link to="//sites.google.com/view/navigait/home" target="_blank" rel="noopener noreferrer">NaviGAIT</Link> and take a look at my <Link to="//github.com/delta-12" target="_blank" rel="noopener noreferrer">Github (https://github.com/delta-12)</Link></p>
                     </div>
                 </div>
                 <Footer />
