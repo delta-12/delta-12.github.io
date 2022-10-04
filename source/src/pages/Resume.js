@@ -22,67 +22,69 @@ export default class Resume extends Component {
                     </p>
                     <h4>Objective</h4>
                     <p>
-                        ●	Looking to pursue a co-op or internship involving electronics, programming, and robotics<br />
-                        ●	Areas of interest include embedded devices, robotics, process control, automation, cloud computing, distributed systems, wireless communications, UAV/drones, and automotive vehicles
+                        ●	Co-op or internship starting spring or summer of 2023 with the potential for future international work opportunities in later rotations<br />
+                        ●	Real-world, impactful work involving multidisciplinary, hands-on projects combining robotics, embedded devices, process control, automation, cloud computing, distributed systems, wireless communications, and/or automotive and ariel vehicles
                     </p>
                     <h4>Education</h4>
                     <p>
-                        University of Pittsburgh, Swanson School of Engineering and University Honors College, Class of 2025<br />
+                        <strong><i>Swanson School of Engineering | University Honors College at University of Pittsburgh, Class of 2025</i></strong><br />
                         ●	Anticipated BS in Computer Engineering<br />
                         ●	Pitt University Scholarship<br />
                         ●	3.65 GPA<br />
                     </p>
-                    <h4>Work Experience</h4>
+                    <h4>Relevant Experience and Coursework</h4>
                     <p>
-                        MSA, Software Quality Engineering Intern - Summer 2022<br />
-                        ●	Automated software testing for MSA’s G1 SCBA using Python, Pytest, and Raspberry Pis equipped with CAN and relay hats<br />
+                        <strong><i>MSA, Software Quality Engineering Intern - Summer 2022</i></strong><br />
+                        ●	Automated software testing for MSA’s G1 SCBA using Python, Pytest, and Raspberry Pis equipped with CAN and relay hats, BLE, and RFID<br />
                         ●	Wrote tool to sniff and parse CAN bus messages<br />
+                        ●	Atlassian tools (Confluence, Jira, Bitbucket, Bamboo)<br />
                         <br />
-                        Lehigh Country Club, Utility Staff - Summer 2021<br />
-                        ●	Washed dishes, cleaned floors, unloaded and organized inventory, performed odd jobs around kitchen including basic food preparation<br />
+                        <strong><i>Art of Making: engineering course involving hands-on, human-centered system design</i></strong><br />
+                        ●	Developed skills involving rapid prototyping, user empathy, project management, communicating, presenting, and data-driven design<br />
+                        ●	Projects: SparkFun Redbot robot, littleBits + Arduino Smart Home system, tangible Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, developed computer vision web app for automating gait analysis at UPMC Sports Medicine as part of an intensive 8-week capstone<br />
+                        ●	Computer vision web app capstone project: React frontend, backend consisting of Nodejs and Python microservices, MongoDB, processed slow-motion video using OpenCV + FFmpeg<br />
                     </p>
-                    <h4>Relevant Skills</h4>
+                    <h4>Skills and Other Experience</h4>
                     <p>
+                        ●	Languages: C/C++, Python, JavaScript (React, Nodejs), HTML/CSS<br />
+                        ●	Proficient with Linux, Bash, Vim, Nano, Git/GitHub, Docker, MongoDB, MATLAB<br />
+                        ●	Experience with Swift and Java, TensorFlow and OpenCV, AWS, Heroku<br />
+                        ●	Soldering, basic electronics and circuit components<br />
+                        ●	Raspberry Pi and Arduino<br />
                         ●	Experience with rudimentary sysadmin and networking tasks, virtualization, and containerization<br />
-                        ●	Proficient in C/C++, JavaScript, Python, and HTML/CSS<br />
-                        ●	Proficient with React, Nodejs, and web app design (PWAs)<br />
-                        ●	Experience with Swift, Java, and TensorFlow Python API<br />
-                        ●	Linux CLI/Bash<br />
-                        ●	Proficient with Raspberry Pi and Arduino<br />
-                    </p>
-                    <h4>Relevant Coursework</h4>
-                    <p>
-                        Art of Making: engineering course involving hands-on, human-centered system design<br/>
-                            •	Developed skills involving rapid prototyping, user empathy, project management, communicating, presenting, and data-driven design<br/>  
-                            •	Projects: SparkFun Redbot, littleBits + Arduino Smart Home system, tangible Minecraft user interface, ESP32-based Bluetooth-enabled cycling safety vest, automated gait analysis at UPMC Sports Medicine using computer vision<br/>
+                        <br />
+                        <strong><i>Maker Guest Star for Art of Making - Fall 2022</i></strong><br />
+                        ●	Unpaid teaching assistant, assist with student questions, troubleshooting, instructor projects<br />
+                        <br />
+                        <strong><i>Lehigh Country Club, Utility Staff - Summer 2021</i></strong><br />
+                        ●	Washed dishes, cleaned floors, unloaded and organized inventory, performed odd jobs around kitchen including basic food preparation<br />
                     </p>
                     <h4>Projects/Personal</h4>
                     <p>
                         ●	Built and configured a server for virtualization, containerization, and file sharing<br />
                         ●	Built and configured a pfSense router using an old server<br />
-                        ●	Deployed several websites and hosts various VPN services on servers at home and in the cloud<br />
-                        ●	Constructed a base station to track planes and ships<br />
+                        ●	Deployed several websites, VPN services, a Minecraft hosting service to cloud and severs at home<br />
+                        ●	Constructed base stations to track planes and ships<br />
                         ●	Built and programmed a semi-autonomous robot<br />
-                        ●	Minecraft hosting service for some friends<br />
-                        ●	Implemented Bluetooth and wrote iOS app (Swift) for Kensington “E-Lock” POC<br />
+                        ●	Cross-platform Battleship game w/ GUI implemented in C using SDL<br />
                     </p>
                     <h4>Involvement/Activities</h4>
                     <p>
                         <strong>Clubs</strong><br />
-                        Pitt Triathlon Club, 2021 - Present<br />
+                        <i>Pitt Triathlon Club, 2021 - Present</i><br />
                         ●   President, 2022 - Present<br />
-                        Pitt Cycling Club, 2021 - Present<br /><br />
+                        <i>Pitt Cycling Club, 2021 - Present</i><br /><br />
                         <strong>Volunteering</strong><br />
-                        Fair Districts PA, 2018 - Present<br />
+                        <i>Fair Districts PA, 2018 - 2022</i><br />
                         Volunteer/Organizer<br />
                         ●	Data collection and database entry, authored letters to the editor and member of state government, chaired information tables at various events<br /><br />
                         <strong>High School Activities</strong><br />
-                        Varsity Track and Cross Country<br />
+                        <i>Varsity Track and Cross Country</i><br />
                         ●	Captain senior year<br />
-                        EPC SAC (Student-Athlete Character) council<br />
-                        National Honors Society, Math Honors Society, Spanish Honors Society<br />
-                        Lehigh University Summer Engineering Institute, 2019<br />
-                        Trained at Leading Edge Martial Arts for 10 years and earned two black belts<br />
+                        <i>EPC SAC (Student-Athlete Character) council</i><br />
+                        <i>National Honors Society, Math Honors Society, Spanish Honors Society</i><br />
+                        <i>Lehigh University Summer Engineering Institute, 2019</i><br />
+                        <i>Trained at Leading Edge Martial Arts for 10 years and earned two black belts</i><br />
                     </p>
                     <h4>Github</h4>
                     <p>
@@ -92,7 +94,7 @@ export default class Resume extends Component {
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
                     <hr className="my-5" style={{ visibility: "hidden" }}></hr>
                 </div>
-            </div>
+            </div >
         )
     }
 
